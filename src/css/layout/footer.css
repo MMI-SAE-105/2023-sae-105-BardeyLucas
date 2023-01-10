@@ -1,6 +1,13 @@
+footer{
+    color: var(--blanc);
+}
 .contact{
-
+    background-color: var(--brun);
 }
 .information{
-    
+    background-color: var(--gris-brun);
+}
+.copyright{
+    background-color: var(--noir);
+    text-align: center;
 }
