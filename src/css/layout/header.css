@@ -1,5 +1,7 @@
 .header__first-stage{
-
+    background-color: var(--ciel);
+    width: 100%;
+    height: 60px;
 }
 .header__logo{
     
