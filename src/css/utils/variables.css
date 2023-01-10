@@ -1,7 +1,6 @@
 :root{
     /* Color styles */
     --marron-claire: rgba(194, 155, 79, 1);
-    --background-degrade: linear-gradient(180deg, rgba(194, 155, 79, 1), rgba(0, 0, 0, 0.8) 100%);
     --blanc: rgba(255, 252, 243, 1);
     --brun: rgba(71, 47, 0, 1);
     --ciel: rgba(98, 148, 176, 1);
