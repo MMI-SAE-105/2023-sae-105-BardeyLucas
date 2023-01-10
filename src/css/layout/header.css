@@ -28,5 +28,7 @@
 }
 .header__button>div{
     background-color: var(--ciel-claire);
-    
+    border-left: solid var(--ciel) 1px ;
+    border-right: solid var(--ciel) 1px ;
+    border-bottom: solid var(--ciel) 1px ;
 }
