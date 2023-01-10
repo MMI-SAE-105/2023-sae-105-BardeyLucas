@@ -4,14 +4,29 @@
     height: 60px;
 }
 .header__logo{
-    
+    margin-top: 15px;
+    margin-left: 5px;
 }
 .Title__letter-purple{
-
+    color: #030082;
 }
 .Title__letter-orange{
-    
+    color: #995C00; 
 }
 .header__langue{
+    transform: translate(-100%, -100%);
+    margin-left: calc(100% - 5px);
+    margin-top: -900px;
+}
+.header__button{
+    display: grid;
+    height: 60px;
+    width: 100%;
+    background-color: var(--ciel-claire);
+    grid-template-columns: 25% 25% 25% 25%;
+    text-align: center;
+}
+.header__button>div{
+    background-color: var(--ciel-claire);
     
 }
