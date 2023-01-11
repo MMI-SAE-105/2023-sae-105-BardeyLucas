@@ -1,13 +1,67 @@
 footer{
     color: var(--blanc);
 }
+footer h4{
+    text-align: center;
+    margin: 0;
+    font-family: 'Cinzel';
+    font-size: 20px;
+}
 .contact{
     background-color: var(--brun);
+    margin-top: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.footer__barre{
+    width: 53%;
+    margin-left: 23.5%;
+}
+.contact div{
+    margin-top: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.contact input, .contact textarea{
+    margin-top: 10px;
+    width: 100%;
+    margin-bottom: 5px;
+    height: 20px;
+    font-family: 'Ubuntu condensed';
+
+}
+.contact textarea{
+    height: 80vw;
 }
 .information{
     background-color: var(--gris-brun);
 }
+.information h4{
+    margin-top: 0;
+    padding-top: 20px;
+}
+.information p{
+    margin-left: 10%;
+    margin-right: 10% ;
+}
+#texte__information{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#footer__mension{
+    margin-left: 23.5%;
+}
+#footer__donne{
+    text-align : right;
+    margin-right: 23.5%;
+    transform: translate(0, calc(-100% - 5px));
+    margin-bottom: -10px;
+}
 .copyright{
     background-color: var(--noir);
     text-align: center;
+    height: 25px;
+}
+.copyright p{
+    margin-top: 10px;
 }

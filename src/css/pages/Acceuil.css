@@ -9,7 +9,7 @@
     width: 100%;
     height: 50px;
     background: linear-gradient(rgba(71, 47, 0, 0.5), rgba(71, 47, 0, 1));
-    color: aliceblue;
+    color: var(--blanc);
 }
 .Photo--texte>p{
     transform: translate(0, 5px);
