@@ -9,16 +9,5 @@
 @import url('vendors/normalize.css');
 
 @import url('pages/Acceuil.css');
-@import url('pages/Adele-Bloch-Bauer.css');
-@import url('pages/Arnold-Bocklin.css');
-@import url('pages/Billetterie.css');
-@import url('pages/Bogatyr.css');
-@import url('pages/Demon-sitting.css');
-@import url('pages/George-Frederic-Watts.css');
-@import url('pages/Gustav-Klimt.css');
-@import url('pages/Hope.css');
-@import url('pages/Island.css');
-@import url('pages/Mikhail-Vroubel.css');
-@import url('pages/Self-Portrait.css');
-@import url('pages/The-All-Pervading.css');
-@import url('pages/The-kiss.css');
+@import url('pages/Artiste.css');
+@import url('pages/Oeuvre.css');
