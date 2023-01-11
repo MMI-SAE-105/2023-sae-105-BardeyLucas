@@ -1,14 +1,38 @@
-/*#sous__menu--artiste{
-    background-color: var(--blanc);
+#sous__menu--artiste{
+    position: absolute;
+    z-index: 5;
+    background-color: var(--ciel-claire);
     width: 25%;
+    top: 20px;
     text-align: center;
+    -webkit-animation: 1s linear forwards move-element;
+            animation: 1s linear forwards move-element;
 }
-#sous__menu--artiste>a{
-    font-size: 12px;
-    width: 25%;
+@-webkit-keyframes move-element { from {margin-top: -200%} to {margin-top: 100px} }
+#sous__menu--artiste>div{
+    font-size: 13px;
+    width: 80%;
+    margin-left: 10%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: solid var(--ciel) 1px;
 }
 #sous__menu--oeuvre{
-    background-color: var(--blanc);
+    position: absolute;
+    background-color: var(--ciel-claire);
     margin-left: 25%;
     width: 25%;
+    top: 20px;
+    text-align: center;
+    -webkit-animation: 1s linear forwards move-element;
+            animation: 1s linear forwards move-element;
+}
+@-webkit-keyframes move-element { from {margin-top: -200%} to {margin-top: 100px} }
+#sous__menu--oeuvre>div{
+    font-size: 13px;
+    width: 80%;
+    margin-left: 10%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: solid var(--ciel) 1px;
 }
