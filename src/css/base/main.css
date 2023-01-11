@@ -19,3 +19,7 @@ p{
     margin-bottom: 5px;
     font-size: 80%;
 }
+a:-webkit-any-link {
+    color: var(--blanc);
+    text-decoration: none;
+}

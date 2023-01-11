@@ -33,20 +33,21 @@
     justify-content: center;
     background-color: var(--blanc);
 }
-.artistes>div>img{
+.artistes>a>img{
     width: 100%;
     padding: 1px var(--gris-fonce);
 }
-.artistes>div>div{
+.artistes>a>div{
     background-color: var(--gris);
     border: solid var(--gris-fonce) 1px;
     height: 50px;
     margin-top: -10px;
 }
-.artistes>div>div>p{
+.artistes>a>div>p{
     font-size: 15px;
     width: 100%;
     margin-top: 10px;
+    color: var(--gris-brun);
 }
 #artistes--George>div>p{
     margin-left: 5%;
