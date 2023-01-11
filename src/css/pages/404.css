@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&display=swap');
+body{
+    background: linear-gradient(rgba(98, 148, 176, 1), rgba(128, 194, 232, 1), rgba(98, 148, 176, 1));
+}
+body>img{
+    width: 50%;
+    margin-top: calc(50vh - 25vw);
+    margin-left: 25%;
+}
+body>div{
+    background-color: rgba(255, 252, 243, 0.5) ;
+    text-align: center;
+    font-size: 300%;
+    width: 80%;
+    margin-left: 10%;
+    font-family: 'Cinzel';
+    font-weight: 900;
+    height: 60px;
+    margin-bottom: calc(50vh - 25vw - 60px);
+}
