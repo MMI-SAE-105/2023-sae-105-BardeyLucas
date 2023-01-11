@@ -3,6 +3,7 @@
     z-index: 5;
     background-color: var(--ciel-claire);
     width: 25%;
+    margin-top: -706.992px;
     top: 20px;
     text-align: center;
     -webkit-animation: 1s linear forwards move-element;
@@ -22,6 +23,7 @@
     background-color: var(--ciel-claire);
     margin-left: 25%;
     width: 25%;
+    margin-top: -721.188px;
     top: 20px;
     text-align: center;
     -webkit-animation: 1s linear forwards move-element;

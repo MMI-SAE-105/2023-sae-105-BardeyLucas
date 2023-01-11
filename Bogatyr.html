@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr" x-data="{interaction : 0}">
+<html lang="fr" x-data="{inter: 0}">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -18,11 +18,13 @@
         <img class="header__langue" src="public/img/Rectangle 16.svg">
         </div>
         <div class="header__button">
-            <div><h3>Artiste</h3></div>
-            <div><h3>Oeuvre</h3></div>
-            <div><h3>Billetterie</h3></div>
-            <div><h3>Contact</h3></div>
+            <div @click="inter = 1"><h3>Artiste</h3></div>
+            <div @click="inter = 2"><h3>Oeuvre</h3></div>
+            <div><a href="#"><h3>Billetterie</h3></a></div>
+            <div><a id="ancre"><h3>Contact</h3></a></div>
         </div>
+        <div id="sous__menu--artiste" x-show="inter === 1"><div><a>Arnold Bocklin</a></div><div><a>George Frederic watts</a></div><div><a>Gustav Klimt</a></div><div><a>Mikhail Vroubel</a></div></div>
+        <div id="sous__menu--oeuvre" x-show="inter === 2"><div><a>Adele Blosh Bauer</a></div><div><a>Bogatyr</a></div><div><a>Demon (sitting)</a></div><div><a>Hope</a></div><div><a>Ile de la mort</a></div><div><a>Self portait with the death</a></div><div><a>The all Pervading</a></div><div><a>The kiss</a></div></div>
     </header>
     <main>
         <div class="Titre__section"><h2>Bogatyr</h2></div>
