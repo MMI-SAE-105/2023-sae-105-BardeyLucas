@@ -14,9 +14,8 @@
     color: #995C00; 
 }
 .header__langue{
-    transform: translate(0, -7.5px);
+    transform: translate(0, -48px);
     margin-left: calc(100% - 45px);
-    margin-top: -900px;
 }
 .header__button{
     display: grid;
