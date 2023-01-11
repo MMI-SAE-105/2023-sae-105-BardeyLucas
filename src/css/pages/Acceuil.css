@@ -50,6 +50,12 @@
     
 }
 /*419%*/
-.def--symbolisme{
-    width: 100%;
+
+.mouvement{
+    background: url(../../../public/img/symbolisme-filtre.png);
+    color: var(--blanc);
+    padding-top: 5px ;
+    padding-bottom: 5px;
+    padding-left: 5%;
+    padding-right: 5%;
 }
