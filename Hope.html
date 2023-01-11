@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr" x-data="{interaction : 0}">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chathédrale Onirique/Hope.fr</title>
+    <link rel="stylesheet" href="src/css/style.css"/>
+    <script defer src="https://unpkg.com/alpinejs"></script>
+</head>
+<body>
+    <header>
+        <div class="header__first-stage">
+            <a href="index.html">
+        <img class="header__logo" src="public/img/logo.svg">
+            </a>
+        <h1><span class="Title__letter-purple">C</span>hathédrale <span class="Title__letter-orange">O</span>nirique</h1>
+        <img class="header__langue" src="public/img/Rectangle 16.svg">
+        </div>
+        <div class="header__button">
+            <div><h3>Artiste</h3></div>
+            <div><h3>Oeuvre</h3></div>
+            <div><h3>Billetterie</h3></div>
+            <div><h3>Contact</h3></div>
+        </div>
+    </header>
+    <main>
+        <div class="Titre__section"><h2>Hope</h2></div>
+        <img id="Image__profil" src="public/img/Assistants_and_George_Frederic_Watts_-_Hope_-_Google_Art_Project.jpg"/>
+        <article class="Section__biographie">
+            <div class="Titre__section"><h2>Information</h2></div>
+            <img class="Zone__biographie" src="public/img/Story-time-hope.png" alt="Radicalement différent des traitements précédents, le tableau montre une silhouette féminine aux yeux bandés, assise sur un globe terrestre et jouant de la lyre dont seule une corde reste présente. Le fond est presque vide, ayant pour seule caractéristique visible une étoile. Watts utilise intentionnellement le symbolisme — courant artistique non traditionnellement associé à l'espoir — pour rendre ambigu le sens de l'œuvre."/>
+        </article>
+    </main>
+<footer>
+    <div class="contact">
+    <h4>Contact</h4>
+    <img class="footer__barre" src="public/img/Line 10.png"/>
+        <div class="formulaire__prenom"><label for="prenom">Prénom</label>
+            <input type="text" id="prenom" required minlength="1" maxlength="20"></div>
+        <div class="formulaire__nom"><label for="nom">Nom</label>
+            <input type="text" id="nom" required minlength="1" maxlength="20"></div>
+        <div class="formulaire__message"><label for="message">Message</label>
+            <textarea id="message" required minlength="1" maxlength="1000"></textarea></div>    
+    </div>
+    <div class="information">
+        <h4>Information</h4>
+        <img class="footer__barre" src="public/img/Line 10.png"/>
+        <p id="texte__information">Dates de l’exposition : du 13 avril au 23 juin 2021</p>
+        <p id="texte__information">Lieu de l’exposition : Fondation Cartier, 261 Bd Raspail, 75014 Paris</p>
+        <p id="texte__information">Horaires d’ouverture : Tous les jours de 11h à 20h, sauf le lundi. Nocturne le mardi, jusqu'à 22h. La fermeture des salles débute à 19h45 (21h45 les mardis).</p>
+        <img class="footer__barre" src="public/img/Line 10.png"/>
+        <p id="footer__mension">Mension légale</p>
+        <p id="footer__donne">Donné personelle</p>
+        <div class="copyright">
+        <p>© Copyright Chathédrale onirique</p>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
