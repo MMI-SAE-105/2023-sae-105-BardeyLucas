@@ -1,11 +1,14 @@
-.sous__menu--artiste{
+/*#sous__menu--artiste{
     background-color: var(--blanc);
     width: 25%;
-    height: 500px;
+    text-align: center;
 }
-.sous__menu--oeuvre{
+#sous__menu--artiste>a{
+    font-size: 12px;
+    width: 25%;
+}
+#sous__menu--oeuvre{
     background-color: var(--blanc);
     margin-left: 25%;
     width: 25%;
-    height: 500px;
 }
