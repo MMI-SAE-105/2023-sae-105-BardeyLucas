@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr" x-data="{interaction : 0}">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chathédrale Onirique/Self-portrait.fr</title>
+    <link rel="stylesheet" href="src/css/style.css"/>
+    <script defer src="https://unpkg.com/alpinejs"></script>
+</head>
+<body>
+    <header>
+        <div class="header__first-stage">
+            <a href="index.html">
+        <img class="header__logo" src="public/img/logo.svg">
+            </a>
+        <h1><span class="Title__letter-purple">C</span>hathédrale <span class="Title__letter-orange">O</span>nirique</h1>
+        <img class="header__langue" src="public/img/Rectangle 16.svg">
+        </div>
+        <div class="header__button">
+            <div @click="interaction = 1"><h3>Artiste</h3></div>
+            <div @click="interaction = 2"><h3>Oeuvre</h3></div>
+            <div><a href="#"><h3>Billetterie</h3></a></div>
+            <div><a id="ancre"><h3>Contact</h3></a></div>
+        </div>
+        <div class="sous__menu--artiste" x-show="interaction === 1"></div>
+        <div class="sous__menu--oeuvre" x-show="interaction === 2"></div>
+    </header>
+</body>
+</html>

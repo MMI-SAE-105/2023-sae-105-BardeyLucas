@@ -1,0 +1,11 @@
+.sous__menu--artiste{
+    background-color: var(--blanc);
+    width: 25%;
+    height: 500px;
+}
+.sous__menu--oeuvre{
+    background-color: var(--blanc);
+    margin-left: 25%;
+    width: 25%;
+    height: 500px;
+}

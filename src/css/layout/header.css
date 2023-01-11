@@ -30,4 +30,10 @@
     border-left: solid var(--ciel) 1px ;
     border-right: solid var(--ciel) 1px ;
     border-bottom: solid var(--ciel) 1px ;
+} 
+header a:-webkit-any-link{
+    color: var(--noir);
+}
+h3{
+    color:var(--noir);
 }
